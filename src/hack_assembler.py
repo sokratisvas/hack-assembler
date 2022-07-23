@@ -38,6 +38,8 @@ class HackAssembler:
         filepath = "../hack-examples/" + self.filename
         with open(filepath, mode = 'r', encoding = "utf-8") as f:
             self.tokens = [line.strip().replace(' ', '') for line in f if line.strip()[:2] != "//" and line.strip()]
+            for i in range(len(self.tokens)):
+                self.tokens[i] = self.tokens[i].split('//', 1)[0]
             self.labels = [token for token in self.tokens if token.startswith('(') and token.endswith(')')]
         for label in self.labels:
             self.symbols[label[1:-1]] = self.tokens.index(label) - self.labels.index(label) 

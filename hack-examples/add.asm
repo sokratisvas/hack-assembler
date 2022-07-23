@@ -1,7 +1,7 @@
 // Computes: RAM[2] = RAM[0] + RAM[1] + 17
 // D = RAM[0]
 @0
-D = M
+D = M //test comment
 // D = D + RAM[1]
 @1
 D = D + M
