@@ -2,7 +2,7 @@
 This project is part of the [nand2tetris](https://www.nand2tetris.org/) course.
 
 # Quick Start
-Pick a .asm file from ```../hack-examples/``` dir
+Pick a .asm file from ```hack-examples/``` dir
 ``` assembly
 // Computes RAM[0] = 2 + 3
 @2
@@ -25,4 +25,4 @@ The binary file is printed:
 0000000000000000
 1110001100001000
 ```
-You can also find the binary executable at ```../testing/simple_add_actual.hack```. Now you can run it on hack hardware.
+You can also find the binary executable at ```testing/simple_add_actual.hack```. Now you can run it on hack hardware.
