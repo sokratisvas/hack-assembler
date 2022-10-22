@@ -15,7 +15,7 @@ M=D
 # Usage
 
 ```bash
-usage: run.py [-h] asmfile
+usage: hasm.py [-h] asmfile
 
 positional arguments:
   asmfile     Input .asm file
