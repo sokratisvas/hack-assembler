@@ -12,12 +12,24 @@ D=D+A
 @0
 M=D
 ```
+# Usage
+
+```bash
+usage: run.py [-h] asmfile
+
+positional arguments:
+  asmfile     Input .asm file
+
+options:
+  -h, --help  show this help message and exit
+```
+
 Run the command:
-```shell 
-$ python3 run.py simple_add.asm 
+```bash 
+$ python3 hasm.py simple_add.asm
 ``` 
 The binary file is printed:
-``` shell
+```bash
 0000000000000010
 1110110000010000
 0000000000000011
